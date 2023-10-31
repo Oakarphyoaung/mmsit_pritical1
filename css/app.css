@@ -9,10 +9,14 @@
 }
 :root {
   --blue: #1e90ff;
-  --white: #40514e;
+  --white: #000606;
+}
+.body {
+  background-color: #7c2525;
 }
 .main {
   padding: 20px;
+  background-color: #7c2525;
 }
 .heading {
   text-decoration: underline;
@@ -24,7 +28,7 @@
   margin-bottom: 5px;
 }
 .btnn {
-  color: rgb(25, 5, 5);
+  color: rgb(246, 241, 241);
   padding: 0px 30px;
   display: inline-block;
   text-decoration: none;
