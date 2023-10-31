@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root {
+  --blue: #1e90ff;
+  --white: #40514e;
+}
+.main {
+  padding: 20px;
+}
+.heading {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.box {
+  margin-bottom: 5px;
+}
+.btnn {
+  color: rgb(25, 5, 5);
+  padding: 0px 30px;
+  display: inline-block;
+  text-decoration: none;
+  height: 50px;
+}
+.btn-blue {
+  background-color: var(--white);
+
+  border: 1px solid var(--white);
+}
+.btn-yello {
+  background-color: var(--blue);
+  color: black;
+  border: 1px solid var(--blue);
+}
+.btn-blue-outline {
+  color: var(--white);
+  border: 1px solid var(--white);
+  background-color: transparent;
+}
+.btn-yello-outline {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  background-color: transparent;
+}
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 0px;
+  width: 50px;
+}
+.rounded {
+  border-radius: 10px;
+}
+.rounded-pill {
+  border-radius: 100px;
+}
