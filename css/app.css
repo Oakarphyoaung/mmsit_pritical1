@@ -1,59 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("./_variables.css");
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-:root {
-  --blue: #1e90ff;
-  --white: #000606;
-}
-.body {
-  background-color: #7c2525;
-}
-.main {
-  padding: 20px;
-  background-color: #7c2525;
-}
-.heading {
-  text-decoration: underline;
-  margin-bottom: 20px;
-  font-size: 35px;
-}
+@import url("./_global.css");
 
-.box {
-  margin-bottom: 5px;
-}
-.btnn {
-  color: rgb(246, 241, 241);
-  padding: 0px 30px;
-  display: inline-block;
-  text-decoration: none;
-  height: 50px;
-}
-.btn-blue {
-  background-color: var(--white);
+@import url("./_utilities.css");
 
-  border: 1px solid var(--white);
-}
-.btn-yello {
-  background-color: var(--blue);
-  color: black;
-  border: 1px solid var(--blue);
-}
-.btn-blue-outline {
-  color: var(--white);
-  border: 1px solid var(--white);
-  background-color: transparent;
-}
-.btn-yello-outline {
-  color: var(--blue);
-  border: 1px solid var(--blue);
-  background-color: transparent;
-}
+@import url("./component/_btn.css");
+@import url("./component/_text.css");
+@import url("./component/_table.css");
+@import url("./component/_list.css");
+@import url("./component/_menu.css");
+
 .btn-icon {
   display: flex;
   justify-content: center;
@@ -61,10 +17,4 @@
   height: 50px;
   padding: 0px;
   width: 50px;
-}
-.rounded {
-  border-radius: 10px;
-}
-.rounded-pill {
-  border-radius: 100px;
 }

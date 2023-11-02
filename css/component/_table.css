@@ -1,0 +1,52 @@
+.table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+.table tr {
+}
+.table td,
+.table th {
+  border: 1px solid black;
+  padding: 10px 15px;
+}
+.table-border-blue td,
+.table-border-blue th {
+  border: 1px solid var(--blue);
+}
+.table-border-pink td,
+.table-border-pink th {
+  border: 1px solid var(--pink);
+}
+.table-border-red td,
+.table-border-red th {
+  border: 1px solid var(--red);
+}
+.table .thead-blue {
+  background: var(--blue);
+  color: white;
+}
+.table .thead-red {
+  background: var(--red);
+}
+.table .thead-pink {
+  background: var(--pink);
+}
+.table-border-blue.table-hover tbody tr:hover {
+  background: rgb(153, 155, 219);
+}
+.table-border-pick.table-hover tbody tr:hover {
+  background: rgb(195, 158, 158);
+}
+.table-border-red.table-hover tbody tr:hover {
+  background: rgb(205, 60, 60);
+}
+.table-strip tbody tr:nth-child(even) {
+  background: rgb(209, 93, 93);
+}
+.table-border-blue.table-strip tbody tr:nth-child(even) {
+  background: #1e90ff;
+}
+.table-border-pick.table-strip tbody tr:nth-child(even) {
+  background: #f874ff;
+}

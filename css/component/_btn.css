@@ -1,0 +1,55 @@
+.btnn {
+  color: rgb(246, 241, 241);
+  padding: 0px 30px;
+  display: inline-block;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+}
+.btn-blue {
+  background-color: var(--white);
+
+  border: 1px solid var(--white);
+}
+.btn-yello {
+  background-color: var(--blue);
+  color: black;
+  border: 1px solid var(--blue);
+}
+.btn-blue-outline {
+  color: var(--white);
+  border: 1px solid var(--white);
+  background-color: transparent;
+}
+.btn-yello-outline {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  background-color: transparent;
+}
+.btnn {
+  color: rgb(246, 241, 241);
+  padding: 0px 30px;
+  display: inline-block;
+  text-decoration: none;
+  height: 50px;
+}
+.btn-blue {
+  background-color: var(--white);
+
+  border: 1px solid var(--white);
+}
+.btn-yello {
+  background-color: var(--blue);
+  color: black;
+  border: 1px solid var(--blue);
+}
+.btn-blue-outline {
+  color: var(--white);
+  border: 1px solid var(--white);
+  background-color: transparent;
+}
+.btn-yello-outline {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  background-color: transparent;
+}
