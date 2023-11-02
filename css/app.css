@@ -9,7 +9,7 @@
 @import url("./component/_table.css");
 @import url("./component/_list.css");
 @import url("./component/_menu.css");
-
+@import url("./component/_card.css");
 .btn-icon {
   display: flex;
   justify-content: center;

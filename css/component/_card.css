@@ -1,0 +1,43 @@
+.card {
+  border: 1px solid black;
+  padding: 15px;
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 5px;
+}
+.card-title {
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-family: var(--heading-font);
+}
+.card-text {
+  color: rgb(70, 70, 70);
+  text-decoration: none;
+}
+.card-img {
+  width: 100%;
+}
+.card-rating {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.card-rating .star {
+  display: inline-block;
+  margin-right: 20px;
+  color: gold;
+}
+.card-rating .rate {
+  display: inline-block;
+}
+.card-price {
+  font-family: var(--heading-font);
+  margin-bottom: 10px;
+}
+.card-price .price {
+  font-size: 23px;
+}
+.card-btn {
+  background-color: black;
+  border: 1px solid black;
+  width: 100%;
+}
