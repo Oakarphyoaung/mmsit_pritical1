@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.heading {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.box {
+  border: 1px solid black;
+  padding: 20px;
+
+  margin-bottom: 20px;
+}
+.box-title {
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box-para {
+  font-family: monospace;
+  font-size: 15px;
+  color: rgb(33, 55, 74);
+  line-height: 20px;
+}
+.box:nth-child(1) {
+  background-color: rgb(155, 63, 63);
+  /* animation-name: slideInLeft;
+  animation-duration: 500ms;
+
+  animation-fill-mode: both; */
+}
+.box:nth-child(2) {
+  background-color: rgb(180, 110, 110);
+  /* animation-name: slideInLeft;
+  animation-duration: 1000ms; */
+}
+.box:nth-child(3) {
+  background-color: rgb(203, 166, 166) (220, 213, 213);
+  /* animation-name: slideInLeft;
+  animation-duration: 1500ms; */
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

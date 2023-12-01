@@ -1,0 +1,57 @@
+.form {
+  border: 2px solid black;
+  width: 400px;
+  padding: 40px;
+  margin: 1cqw auto;
+  background-color: rgb(146, 144, 131);
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+}
+.input,
+.select {
+  width: 100%;
+  display: block;
+  height: 50px;
+  padding: 0 15px;
+  border: 2px solid black;
+}
+.select {
+  appearance: none;
+  background-image: url(../../image/droup-down.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+.btn-right {
+  display: block;
+  margin-left: auto;
+}
+.input-blue,
+.select-blue {
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
+.select-blue {
+  background-image: url(../../image/drup-down-blue.svg);
+}
+.checkbox {
+  accent-color: black;
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  border: 1px solid black;
+}
+.checkbox:checked {
+  background-image: url(../../image/check-bold.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.checkbox-label {
+  font-size: 20px;
+}

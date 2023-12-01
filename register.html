@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <style>
+      body{
+        
+        background-image: url(./image/Photography-trends-and-techniques-_fantasy.jpg);
+      }
+    </style>  
+  </head>
+  <body>
+    <main>
+      <div class="form">
+        <h1 class="register heading">Gallery Register</h1>
+        <form action="" method="get">
+          <div class="input-group">
+            <label class="input-label" for="yourname">Your Name </label>
+            <input
+              class=" input "
+              type="text"
+              name="yourname"
+              id="yourname"
+              placeholder="eg. kyaw kyaw"
+              required
+            />
+          </div>
+          
+          <div class="input-group">
+            <label class="input-label" for="youremail">Your Email </label>
+            <input
+              class="input"
+              type="email"
+              name="youremail"
+              id="youremail"
+              placeholder="eg. kyawkyaw@gmail.com"
+              required
+            />
+          </div>
+          <div class="input-group mb-20">
+            <label class="input-label" for="yourpassward">Passward </label>
+            <input
+              class="input"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="eg. HKH@&#Hkfdm"
+              required
+            />
+          </div>
+          <div class="">
+            <label class="input-label" for="nationality">Nationality</label>
+            <select class="select mb-20 " name="nationality" id="nationality">
+              <option value="mm">Myanmar</option>
+              <option value="ch">China</option>
+              <option value="kr">Korean</option>
+              <option value="jp">Japanese</option>
+              <option value="uk">England</option>
+          </select>
+          </div>
+          <div class="input-group">
+            <label class="input-label" for="">Youe Favorites Gallery Types</label>
+            <div class="">
+              <input type="checkbox" class="checkbox" value="html" class="skill" id="html">
+              <label for="html">Commercial art galleries</label>
+            </div>
+            <div class="">
+              <input type="checkbox" class="checkbox" value="css" class="skill" id="css">
+              <label for="css">Non-profit art galleries</label>
+            </div>
+            <div class="">
+              <input type="checkbox" class="checkbox" value="js" class="skill" id="js">
+              <label for="js">Artist-run art galleries</label>
+            </div>
+          </div>
+          <button class="btnn btn-dark btn-right">
+            Register
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

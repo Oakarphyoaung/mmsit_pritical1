@@ -10,6 +10,7 @@
 @import url("./component/_list.css");
 @import url("./component/_menu.css");
 @import url("./component/_card.css");
+@import url("./component/_form.css");
 .btn-icon {
   display: flex;
   justify-content: center;
